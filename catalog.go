@@ -69,10 +69,7 @@ func main() {
 
 	// The default listening port should be set to something suitable.
 	// 8889 was chosen so we could test Catalog by copying into the golang buildpack.
-	listenPort := getenv("SHIPPED_CATALOG_LISTEN_PORT", "8888")
-	setenv("CATALOG_PORT", listenPort)
-
-	fmt.Println(os.Getenv("CATALOG_PORT"))
+	listenPort := "8888"
 
 	log.Println("Listening on Port: " + listenPort)
 	http.ListenAndServe(fmt.Sprintf(":%s", listenPort), nil)
