@@ -1,0 +1,21 @@
+{
+  "items": [{
+    "item_id": 1,
+    "name": "Banana",
+    "description": "This is an organic Banana.",
+    "price": 0.99,
+    "image": "images/banana.jpg"
+  }, {
+    "item_id": 2,
+    "name": "Apple",
+    "description": "This is an organic Apple.",
+    "price": 0.75,
+    "image": "images/apple.jpg"
+  }, {
+    "item_id": 3,
+    "name": "Bread",
+    "description": "This is organic 365 bread.",
+    "price": 0.99,
+    "image": "images/bread.jpg"
+  }]
+}

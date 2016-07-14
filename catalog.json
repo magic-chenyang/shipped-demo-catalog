@@ -1,21 +1,21 @@
 {
   "items": [{
     "item_id": 1,
-    "name": "Banana",
-    "description": "This is an organic Banana.",
-    "price": 0.99,
-    "image": "images/banana.jpg"
+    "name": "BB8 Toy",
+    "description": "This is a new Star Wars droid toy.",
+    "price": 149.50,
+    "image": "images/bb8.png"
   }, {
     "item_id": 2,
-    "name": "Apple",
-    "description": "This is an organic Apple.",
-    "price": 0.75,
-    "image": "images/apple.jpg"
+    "name": "Light Saber",
+    "description": "This is a new Star Wars lightsaber toy.",
+    "price": 14.50,
+    "image": "images/lightsaber.jpg"
   }, {
     "item_id": 3,
-    "name": "Bread",
-    "description": "This is organic 365 bread.",
-    "price": 0.99,
-    "image": "images/bread.jpg"
+    "name": "Blaster",
+    "description": "This is Han Solos famous blaster toy.",
+    "price": 20,
+    "image": "images/blaster.jpg"
   }]
 }
