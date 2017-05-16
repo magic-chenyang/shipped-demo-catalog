@@ -176,7 +176,7 @@ func dbConnection() (db *sql.DB, err error) {
 
 		//ex: "postgres://postgres:postgres@test--pgtest--pgsingle--1164ae-0.service.consul:4000/postgresDB?sslmode=disable"
 		if strings.Contains(deployTarget, "LOCAL_SANDBOX") {
-			connStr = "postgres://postgres:postgres@192.168.56.133:5454/postgres?sslmode=disable"
+			connStr = "postgres://postgres:postgres@192.168.56.133:5432/postgres?sslmode=disable"
 		}
 		log.Printf("Current deploy target %s", deployTarget)
 		log.Println(connStr)
